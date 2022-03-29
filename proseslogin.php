@@ -23,7 +23,7 @@
 					location.replace('user.php')</script>";
 				}else{
 					echo "<script>alert('Anda Tidak Punya Akses')
-					location.replace('login.php')</script>";
+					location.replace('index.php')</script>";
 				}
 		}else{
 			echo "<script>alert('Anda tidak punya akun, silahkan daftar terlebih dahulu')
@@ -31,6 +31,6 @@
 		}
 	}else{
 		echo "<script>alert('Login Gagal, Data Anda Tidak Valid?!')
-		location.replace('login.php')</script>";
+		location.replace('index.php')</script>";
 	}
 ?>
